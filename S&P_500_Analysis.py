@@ -130,8 +130,7 @@ y2_std2 = standard_sp500_df['AMZN']
 y3_std3 = standard_sp500_df['AAPL']
 
 # NOTE: "axis 0" represents rows and "axis 1" represents columns
-# NOTE: provare a sostituire l'indice con le Date utilizzando 'inplace = True'
-# per evitare di utiliizare una seconda variabile per il DF
+
 sp500.set_index('Date', inplace=True)
 sp500['mean'] = sp500.mean(axis=1)
 mean = sp500['mean']
