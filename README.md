@@ -1,1 +1,1 @@
-# S_P_500_Analysis
+# 'S&P 500' Analysis
